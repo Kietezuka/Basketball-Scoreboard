@@ -1,0 +1,38 @@
+.container {
+  background-color: blueviolet;
+  max-width: 90vh;
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h2 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  align-items: center;
+}
+
+#score1,
+#score2 {
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: black;
+
+  color: white;
+  font-size: 90px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btns {
+  width: 155px;
+  height: 45px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
